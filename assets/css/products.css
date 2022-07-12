@@ -1,0 +1,22 @@
+.product-card {display: flex;
+    width: 260px;
+    flex-direction: column;
+    border:1px solid olivedrab;
+}
+.card-name {flex: 1 0 60px;}
+
+.card-bottom { flex: 1 0 60px;   padding:8px; display:flex; flex-direction:row;}
+
+.order-btn {padding: 12px; color:blue;}
+.order-btn:hover {  background-color:#e6ffff;}
+
+.name-product, .price-product { flex: 1 0 50%;}
+.price-product  { text-align: right;  border-left:1px solid olivedrab;}
+
+.products-for-sale-gallery
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-gap: 2.7rem;
+
+}

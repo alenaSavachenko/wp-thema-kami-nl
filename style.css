@@ -1,0 +1,61 @@
+
+/*
+Theme Name:kaMiArt
+Author: alena savachenko
+
+
+*/
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--white);
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+ img {max-width:100%;}
+
+  #page-body {
+      display:flex;
+      flex-direction: column;
+      min-height: 100vh;
+  }
+
+
+header, footer {
+    flex: 0 0 5em;
+}
+
+.main-content  {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+
+    body{
+        min-height: 100vh;
+    }
+    main {
+        /* background-color:khaki;  */
+        min-height: 100%;
+        flex: 1 1 auto;
+    }
+}
+
+.page-content {  margin-top:110px; margin-bottom: 40px; }

@@ -1,0 +1,14 @@
+.one { padding-left: 30px;}
+.green-box {background-color:#9ab49e;  min-height:520px;}
+
+
+.green-box-child { margin-left:170px; background-color:#fff;min-height:520px;}
+.profile-image { float:left; padding-right: 22px;}
+
+
+@media (max-width: 768px) {
+    .one { padding-left: 8px;}
+    .green-box-child { margin-left:17px; }
+    .text-wrapper-about { padding: 8px;}
+
+}

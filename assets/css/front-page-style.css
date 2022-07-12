@@ -1,0 +1,48 @@
+.parent-fp {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width:100%;
+    margin-bottom:37px;
+
+}
+
+
+.block-fp { height: 350px; }
+
+.block-fp-2 {
+
+    width: calc(2/3*100%);
+    background:  url("https://kasiamitan.nl/images/min/fp2-min.png") no-repeat center;
+    background-size: cover;
+}
+
+.block-fp-1 {
+    width: calc(1/3*100% - 28px);
+    margin-right:27px;
+    background:  url("https://kasiamitan.nl/images/min/fp1-min.png") no-repeat center;
+    background-size: cover;
+
+}
+
+.block-fp-4 {
+
+    width: calc(1/3*100%);
+    background:  url("https://kasiamitan.nl/images/min/fp4-min.png") no-repeat center;
+    background-size: cover;
+}
+.block-fp-3 {
+
+
+    width: calc(2/3*100% - 28px);
+    background:  url("https://kasiamitan.nl/images/min/fp3-min.png") no-repeat center;
+    background-size: cover;
+    margin-right:27px;
+}
+
+
+@media (max-width: 768px) {
+
+    .block-fp   {width:100%; margin:8px;}
+    /*  body {background: #9AB49E;}  */
+}
